@@ -189,3 +189,15 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
 [Tue Feb 24 05:08:59.627701 2026] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.2.1 OpenSSL/1.1.1n configured -- resuming normal operations
 [Tue Feb 24 05:08:59.627758 2026] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Feb 24 06:37:57.226548 2026] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 24 06:50:22.387967 2026] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.2.1 OpenSSL/1.1.1n configured -- resuming normal operations
+[Tue Feb 24 06:50:22.388025 2026] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Feb 24 09:48:45.098679 2026] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 25 01:14:36.589852 2026] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.2.1 OpenSSL/1.1.1n configured -- resuming normal operations
+[Wed Feb 25 01:14:36.589906 2026] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Feb 25 01:50:22.932897 2026] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 25 05:04:22.592507 2026] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.2.1 OpenSSL/1.1.1n configured -- resuming normal operations
+[Wed Feb 25 05:04:22.592575 2026] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
