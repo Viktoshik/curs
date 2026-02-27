@@ -18,14 +18,8 @@ Route::get('/favorite/{id}', [RegisterController::class, 'favoriteAdd']);
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/category/{category}', [HomeController::class, 'category']);
+Route::get('/show', [BasketController::class, 'show']);
 Route::get('/basket/add/{id}', [BasketController::class, 'add']);
+Route::get('/basket/application', [BasketController::class, 'application'])->name('basket.application');
+Route::post('/basket/application', [BasketController::class, 'createApplication'])->name('basket.application');
 
-
-
-/*Route::get('/search', [SearchController::class, 'index'])->name('search');
-Route::get('/categories', [CategoryController::class, 'index'])->name('categories.index');
-Route::get('/contacts', [ContactController::class, 'index'])->name('contacts');
-
-// API для корзины
-Route::post('/cart/add', [CartController::class, 'add'])->name('cart.add');
-Route::get('/products/quickview', [ProductController::class, 'quickView'])->name('products.quickview');*/
